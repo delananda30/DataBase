@@ -1,0 +1,43 @@
+.mx-auto {
+    width: 70%;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pembuka{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.welcome{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.hello{
+    font-style: italic;
+    font-size: 16px;
+}
+
+.explore{
+    margin: 80px 0px 50px 0px;
+}
+
+.kiri {
+    width: 50%;
+    float: left;
+}
+
+.kanan {
+    width: 50%;
+    float: right;
+}
+
+.footer {
+    height: 300px;
+    clear: both;
+    background-color:rgb(33, 37, 41);
+}
