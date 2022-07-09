@@ -254,7 +254,7 @@ if (isset($_POST['simpan'])) {
                                     INNER JOIN produk p
                                     ON r.id_produk = p.id_produk
                                     INNER JOIN pembeli m
-                                    ON r.id_pembeli = r.id_pembeli";
+                                    ON r.id_pembeli = m.id_pembeli";
                         $q2     = mysqli_query($koneksi, $sql2);
                         while ($r2 = mysqli_fetch_array($q2)) {
                             $id_review      = $r2['id_review'];
